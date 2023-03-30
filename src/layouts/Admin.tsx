@@ -1,4 +1,4 @@
-//import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import FooterPage from './components/FooterPage';
 import HeaderPage from './components/HeaderPage';
 import LeftSidebar from './components/LeftSidebar';
@@ -11,7 +11,10 @@ const Admin = (): JSX.Element => {
 			<LeftSidebar />
 
 			<div className="page-wrapper">
-				<div className="container-fluid">{/* <Outlet /> */}</div>
+				<div className="container-fluid">
+					{' '}
+					<Outlet />
+				</div>
 			</div>
 
 			<FooterPage />

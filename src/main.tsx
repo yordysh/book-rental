@@ -15,10 +15,14 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 
 import App from './App';
 
+import router from './router';
+import { RouterProvider } from 'react-router-dom';
+
 library.add(fas, far);
 
 createRoot(document.getElementById('root') as HTMLElement).render(
 	<StrictMode>
-		<App />
+		{/* <App /> */}
+		<RouterProvider router={router} />
 	</StrictMode>,
 );

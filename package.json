@@ -20,6 +20,7 @@
 		"perfect-scrollbar": "^1.5.5",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.10.0",
 		"sass": "^1.60.0",
 		"sweetalert2": "^11.7.3",
 		"toastmejs": "^1.2.7"
