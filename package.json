@@ -11,6 +11,9 @@
 		"lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx"
 	},
 	"dependencies": {
+		"@popperjs/core": "^2.11.7",
+		"bootstrap": "^5.2.3",
+		"perfect-scrollbar": "^1.5.5",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
