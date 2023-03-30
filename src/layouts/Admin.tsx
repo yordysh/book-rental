@@ -11,9 +11,7 @@ const Admin = (): JSX.Element => {
 			<LeftSidebar />
 
 			<div className="page-wrapper">
-				<div className="container-fluid">
-					{/* <Outlet /> */}
-				</div>
+				<div className="container-fluid">{/* <Outlet /> */}</div>
 			</div>
 
 			<FooterPage />
