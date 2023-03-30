@@ -1,4 +1,4 @@
-//import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import logo from '../template/images/logo.png';
 import bgMain from '../template/images/bg-main.jpg';
 
@@ -24,7 +24,7 @@ const Auth = (): JSX.Element => {
 							</a>
 						</div>
 
-						{/* <Outlet /> */}
+						<Outlet />
 					</div>
 				</div>
 			</article>
